@@ -46,10 +46,11 @@ public class EnemyAgression : MonoBehaviour
 
     void Update()
     {
-            while (agressionBar > 0)
-            {
-                //balao de fala aleatorio (entre 4)
-            }
+        if (agressionBar > 0)
+        {
+            // Lógica a ser executada enquanto agressionBar for maior que zero
+            // Pode incluir balão de fala aleatório (entre 4 opções), por exemplo
+        }
     }
 
     public void TakeDamage(float damage)
